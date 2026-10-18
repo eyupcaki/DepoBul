@@ -1,0 +1,10 @@
+﻿V6.1 — Güvenli bağlantı uyumluluğu
+Visual Studio ve eski programı kapatın. Paketi ayrı klasöre çıkarın.
+DepoBul.sln dosyasını açın. Build > Rebuild Solution ardından F5 kullanın.
+Otomatik Depo Ara > Depo konumunu araştır.
+TLS protokol seçimi Windows varsayılanına bırakıldı.
+Güçlü şifreleme ve sistem TLS varsayılanları uygulama yapılandırmasında açıldı.
+Sertifika doğrulaması korunur. HTTP bağlantısına geçilmez.
+Windows/.NET ortamında çalışma kullanıcı bilgisayarında doğrulanmalıdır.
+Arama yöntemi, veri ve GA ayarları V6 ile aynıdır.
+Paket içindeki örnek sonuçlar önceki V6 pilotuna aittir.

@@ -1,0 +1,10 @@
+﻿Yöntem: talep ağırlıklı merkez + azalan adımlı yerel konum araması + her konum için GA.
+Her düzeyde merkez ve kuzey/güney/doğu/batı; düzey başına bir konum güncellemesi.
+Adımlar(km)=40,20,10; en çok başlangıç-yol eşleştirme(m)=2000; matris uç eşleştirmesi en çok 100m.
+Ortak: kapasite=20; filo=28; lambda=100; F=D+lambda*(K-1).
+Tarama: popülasyon=100; nesil=100; mutasyon=0.2; tohumlar=1,2,3
+Son değerlendirme: en iyi 3 tarama konumu; popülasyon=300; nesil=200; mutasyon=0.2; tohumlar=1001,1002,1003,1004,1005,1006,1007,1008,1009,1010,1011,1012,1013,1014,1015,1016,1017,1018,1019,1020,1021,1022,1023,1024,1025,1026,1027,1028,1029,1030
+Konum seçimi ortalama F ile; haritada seçilen konumun en düşük F'li koşumu gösterilir. Tarama ve son koşumlar ayrı tutulur.
+Başlangıç merkezi=37.466280703296704,37.930356438461544
+İlk başarılı table sorgusunun mağaza-mağaza matrisi arama boyunca sabittir. Yeni konumların depo bacakları yeni sorgulardan alınır. Ham sorgular osrm_kayitlari içindedir.
+Arama küresel optimum veya tüm bölgenin tarandığı iddiası değildir. Yol ağına bağlı nokta parsel/imar/yükleme alanı uygunluğu değildir. Talepler ve kapasite senaryodur.

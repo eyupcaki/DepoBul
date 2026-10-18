@@ -1,0 +1,15 @@
+﻿OTOMATİK DEPO ARAMASI — İLK ÇALIŞTIRMA
+
+1. Çalışan eski programı kapatın. ZIP dosyasını yeni bir klasöre çıkartın.
+2. DepoBul.sln dosyasını Visual Studio ile açıp F5 ile çalıştırın.
+3. Ana ekranda Otomatik Depo Ara düğmesine basın.
+4. Pilot_Veriler/magazalar.csv otomatik seçilir; bu dosya 28 mağaza ve örnek palet taleplerini içerir. İçinde depo yoktur.
+5. İlk denemede ayarları değiştirmeden Depo konumunu araştır düğmesine basın. İnternet gerekir; yol sorguları nedeniyle birkaç dakika sürebilir.
+6. Sonuç geldiğinde Önerilen depoyu haritada göster düğmesine basın. Renkli düz çizgiler ziyaret sırasını gösterir. Gerçek yol geometrisi için ana ekranda Karayolu Rotaları düğmesine basın. Bu işlem de internet sorguları yapabilir.
+7. Sonuçlar Belgeler/DepoBul_Deneyleri altında her deney için yeni klasöre kaydedilir. Sonuç klasörünü aç düğmesini kullanabilirsiniz.
+
+YENİDEN HESAPLAMADAN ÖRNEĞİ İNCELEME
+Otomatik arama ekranında Kayıtlı otomatik sonucu aç düğmesine basıp Ornek_Otomatik_Deney/secilen_depo_kosumlari.csv dosyasını seçin. Bu, kaydedilmiş pilotu açar; yeni arama yapılmış sayılmaz.
+
+ÖNEMLİ
+Bu sürüm altı hazır depo arasından seçim yapmaz. Talep ağırlıklı merkezden başlayan, azalan adımlı bir konum araması yürütür. Depo konumunu dıştaki yerel arama, araç rotalarını GA belirler. Arsa/imar uygunluğu, küresel optimum veya bütün bölgenin tarandığı iddia edilmez.

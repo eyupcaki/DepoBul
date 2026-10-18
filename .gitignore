@@ -1,0 +1,20 @@
+# Visual Studio local files and build outputs
+.vs/
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.pdb
+*.log
+TestResults/
+# Local runtime caches; keep the archived experiment evidence tracked.
+**/road_cache/
+**/TileDBv5/
+DepoBul_Deneyleri/
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.tmp
+# packages/ is deliberately tracked: the legacy project uses local HintPath references.

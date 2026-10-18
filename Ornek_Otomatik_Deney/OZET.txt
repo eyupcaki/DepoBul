@@ -1,0 +1,7 @@
+﻿Önerilen depo: AUTO001
+Koordinatlar: 37.467991, 37.930525
+Üretilip değerlendirilen farklı konum: 11
+Son ortalama F: 2336.5785533333333
+En iyi koşum mesafesi(km): 1855.3742
+Bu koşumdaki araç: 5
+Makale öncesi saha/faaliyet ve veri tutarlılığı incelemesi gereklidir. Bu bir pilot dağıtım senaryosudur.
